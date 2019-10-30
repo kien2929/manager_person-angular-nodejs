@@ -1,0 +1,10 @@
+<div class="row one">
+    <div class="col-1">#{{id}}</div>
+    <div class="col-4">{{name}}</div>
+    <div class="col-2">{{gender| uppercase}}</div>
+    <div class="col-1">{{age}}</div>
+    <div class="col-4 row">
+        <button type="button" class="btn btn-primary col-5" (click)="editByClick()">Edit</button>
+        <button type="button" class="btn btn-danger col-5" (click)="removeByClick()">Xóa</button>
+    </div>
+</div>
